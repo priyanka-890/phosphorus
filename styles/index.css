@@ -1,3 +1,94 @@
-/* body{
-    background-color: red;
-} */
+/* amarjeet */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 40px;
+}
+.get-start{
+    height: 650px;
+    width: 100%;
+    display: flex;
+}
+.get-start > div{
+   
+    margin: 2%;
+    height: 90%;
+    background-color: rgb(243, 241, 241);
+    width: 30%;
+    text-align: center;
+}
+.get-start > div > div{
+    background-color: lightgray;
+    margin: 10% auto;
+    height: 50%;
+    width: 90%;
+}
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+.get-start > div > p{
+    
+    margin: 5%;
+}
+.get-start > div > a{
+    
+    margin: 5%;
+    text-decoration: none;
+}
+
+.work-goals{
+    width: 100%;
+    height: 600px;
+    margin:  60px auto;
+    display: flex;
+}
+.work-goals > div , .plans > div{
+    margin: 3%;
+    height: 90%;
+    width: 45%;
+}
+p {
+   
+    margin: 5%;
+}
+a{
+   
+    margin: 5%;
+    text-decoration: none;
+}
+.h4{
+   
+    margin-top:  25%;
+    margin-left: 5%;
+}
+button{
+background-color: rgb(67, 206, 67); 
+color: white;
+height: 40px;
+width: 180px;
+margin: 5%;
+}
+*{
+    text-align: center;
+}
+.plans{
+    height: 400px;
+    background-color: rgb(22, 11, 31);
+    display: flex;
+    color: white;
+    position: relative;
+    bottom: 4px;
+    width: 99%;
+    margin-left: .5%;
+}
+.fortune-500{
+    display: flex;
+    margin: 8%;
+}
+/* amarjeet */
