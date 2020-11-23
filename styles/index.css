@@ -1,3 +1,69 @@
 /* body{
     background-color: red;
 } */
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+
+}
+.nav-bar >div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+.nav-bar >div:nth-child(2)>button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.nav-bar >div:nth-child(3)>button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.nav-bar >div:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.nav-bar >div:nth-child(3)>button:hover{
+    opacity: 0.7;
+}
+.nav-bar > div:nth-child(n+2):nth-child(-n+3) >button{
+    color: #333e48;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "National 2","Helvetica Neue",Helvetica,
+    Arial,"Hiragino Sans","Hiragino Kaku Gothic Pro","æ¸¸ã‚´ã‚·ãƒƒã‚¯","æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“",YuGothic,"Yu Gothic","ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯","MS Gothic",sans-serif;
+    
+}
+.nav-bar >div:nth-child(3)>button:nth-child(2){ 
+    background-color:#f9be00; 
+    
+    
+    
+}
+.nav-bar >div:nth-child(3)>button:focus{
+   outline: none !important;
+   box-shadow: none !important;
+    
+}
+.nav-bar >div:nth-child(2)>button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+     
+ }
+ i{
+    font-size: 24px;
+    position: relative;
+    top: 3px;
+    padding-left: 5px;
+    
+ }
+ 
