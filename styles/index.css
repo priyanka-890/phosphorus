@@ -2,7 +2,8 @@
     background-color: red;
 } */
 .nav-bar{
-    position: fixed;
+    position: sticky;
+    
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -78,17 +79,19 @@
     
  }
  #moving-search{
- width: 100px;
- height: 20px;
- position: absolute;
- left:20px;
- animation-name:moveleft;
- animation-duration:1s ;
-display: flex;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left:20px;
+    animation-name:moveleft;
+    animation-duration:1s ;
+   display: flex;
 
  }
  #search-div{
      display: flex;
+     position:relative;
+     top:10px;
      
  }
  #search-div>div:nth-child(2)>i{
@@ -106,12 +109,13 @@ display: flex;
     height: 40px;
     outline: none;
     cursor: pointer;
+   
     
 }
 
  
 @keyframes moveleft{
-    0%   { left:100%; top:0px;}
+    0% { left:100%; top:0px;}
  
   100% { left:0%; top:0px;}
 }
@@ -124,4 +128,53 @@ display: flex;
     position: fixed;
     display: none;
 
+}
+.product-div{
+    height: 50%;
+    width: 60%;
+    background-color:whitesmoke;
+    box-shadow: 2px 2px 30px 5px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 300px;
+    display: none;
+}
+.get-start{
+    width: 992px;
+    height: 442px;
+    padding: 0px 12px;
+    
+    margin: 100px auto;
+    text-align: center;
+}
+.get-start > div{
+    width: 992px;
+    height:150px;
+    padding: 10px;
+    margin: 200px 10px;
+     
+}.get-start >div >div{
+    display: block;
+    height: 50px;
+}
+.get-start >div >div:nth-child(2)>p{
+    color: #333e48;
+     font-size: 18px;
+    line-height: 1.78;
+    font-weight: 500;
+    font-family: "National 2","Helvetica Neue",Helvetica,
+    Arial,"Hiragino Sans","Hiragino Kaku Gothic Pro","æ¸¸ã‚´ã‚·ãƒƒã‚¯","æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“",YuGothic,"Yu Gothic","ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯","MS Gothic",sans-serif;
+}
+.get-start>div >div:nth-child(3){
+    color: #ffffff;
+    background-color: #00bf6f;
+    font-size: 15px;
+    font-family: "National 2","Helvetica Neue",Helvetica,
+    Arial,"Hiragino Sans","Hiragino Kaku Gothic Pro","æ¸¸ã‚´ã‚·ãƒƒã‚¯","æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“",YuGothic,"Yu Gothic","ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯","MS Gothic",sans-serif;
+    width: 120px;
+    height: 12px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 430px;
+    border-radius: 2px;
 }
