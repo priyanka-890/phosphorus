@@ -154,7 +154,12 @@
     padding: 10px;
     margin: 200px 10px;
      
-}.get-start >div >div{
+}
+#change-content{
+    font-size:56px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+}
+.get-start >div >div{
     display: block;
     height: 50px;
 }
