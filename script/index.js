@@ -20,7 +20,7 @@ var closeDiv= document.getElementById("close")
 closeDiv.addEventListener('click',closeBar)
 
 var tabOpens= [false,false,false]
-// java script for products
+// java script for nav-products
 
 function productBar(index){
     var productDetails=document.getElementsByClassName("product-div")
