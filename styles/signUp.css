@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+*{
+    text-align: center;
+}
+.logo{
+    margin:5%;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.logo > div:nth-child(1) {
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+.logo > div:nth-child(2) {
+    right: 10%;
+    position: absolute;
+}
+.logo > div > a > button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.Account{
+    
+    font-size: 34px;
+    font-weight: 300;
+    text-align: center;
+    margin: 5px auto;
+}
+.SignUp{
+    
+    background-color: #fff;
+   width: 100%;
+   display: flex;
+   position: relative;
+
+}
+.SignUp > div:nth-child(1) {
+    height: 1%;
+    width: 150px;
+    border: 1px solid black;
+    position: absolute;
+    top: 35px;
+    left: 30%;
+}
+.SignUp > div:nth-child(3) {
+    height: 1%;
+    width: 150px;
+    border: 1px solid black;
+    position: absolute;
+    top: 35px;
+    right: 30%;
+
+}
+.SignUp > div:nth-child(2) {
+    width: 200px;
+    position: absolute;
+    right: 43%;
+    top: 1%;
+}
+form{
+    position: relative;
+    width: 600px;
+    margin: 5% auto;
+}
+form > input , form > button{
+    height: 40px;
+    width: 90%;
+    margin: 5%;
+    text-align: left;
+    font-size: 20px;
+    appearance: none;
+}
+form > input:nth-of-type(4), form > input:nth-of-type(5){
+    height: 40px;
+    width: 38%;
+    float: left;
+}
+button{
+    background-color: #00bf6f;
+    border-color: #00bf6f;
+    color: white;
+}
+.missing {
+    color: #F05B24;
+    font-size: 13px;
+    margin-top: 0;
+    padding: 0 12px
+}
+.Adjust{
+    height: 40px;
+    position: relative;
+    top: -100px;
+}
+.logo2{
+    position: relative;
+    height: 100px;
+    width: 400px;
+    left: 35%;
+    top: -80px;
+    display: flex;
+}
+.logo2 > div {
+    width: 20%;
+    margin: 3%;
+    margin-top: 5%;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+.LastLogo{
+    position: relative;
+    height: 100px;
+    width: 300px;
+    left: 42%;
+    display: flex;
+}
+.LastLogo > div {
+    width:40% ;
+    height: 60px;
+    margin: 4%;
+}
+.img {
+width: 100%;
+height: 100%;
+}
