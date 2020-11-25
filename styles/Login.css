@@ -1,0 +1,142 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.logo{
+    margin:5%;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.logo > div:nth-child(1) {
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+.logo > div:nth-child(2) {
+    right: 10%;
+    position: absolute;
+}
+.logo > div > a > button {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+    border: 3px solid black;
+}
+.Pleft{
+    /* float: left; */
+    font-size: 40px;
+    text-align: left;
+    margin: 5%;
+}
+.SecondBox{
+   
+    width: 70%;
+    margin: 5% auto;
+    height: 900px;
+}
+.Flex{
+    display: flex;
+    position: relative;
+}
+.Flex > div {
+   
+    width:49% ;
+}
+p,h1{
+    margin: 5%;
+}
+a{
+    text-decoration: none;
+}
+.SecondBox > div:nth-of-type(2) ,.SecondBox > div:nth-of-type(3) {
+    width: 45%;
+    height: 700px;
+    margin: 2%;
+    
+}
+.SecondBox > div:nth-of-type(2){
+    background-color: #edeeee;
+}
+input:nth-of-type(1),input:nth-of-type(2) , button{
+    height: 40px; 
+    width: 90%;
+    margin: 5%;
+    text-align: left;
+    font-size: 20px;
+}
+label{
+    padding: 5%;
+    font-size: 20px;
+
+}
+input:nth-of-type(3){
+    height: 40px;
+    width: 40px;
+    margin: 5%;
+}
+button{
+    background-color: #00bf6f;
+    border-color: #00bf6f;
+    color: white;
+    text-align: center;
+}
+#clear{
+    clear: left;
+}
+.Line{
+    width: 43%;
+    height: 1px;
+    border: 2px solid white;
+    margin-top: 13px;
+}
+.Circle{
+    width: 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+    height: 30px;
+    background-color: white;
+}
+.Flex2{
+    display: flex;
+    position: relative;
+}
+.logo2{
+    position: relative;
+    display: flex;
+    width: 70%;
+    margin: 3% auto;
+
+}
+.logo2 > div{
+    margin: 5%;
+}
+ .LastLogo{
+    position: relative;
+    height: 100px;
+    width: 300px;
+    left: 42%;
+    display: flex;
+}
+.LastLogo > div {
+    width:40% ;
+    height: 60px;
+    margin: 4%;
+}
+.img {
+width: 100%;
+height: 100%;
+}
+.Anchor{
+    width: 600px;
+    margin: 1% auto;
+    color: black;
+}
+#line{
+    width: 100%;
+    border: .5px solid #6B787F;
+}
