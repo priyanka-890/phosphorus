@@ -48,7 +48,7 @@ anchor1.addEventListener("click", openBusiness)
 
 function openBusiness() {
     var businessDiv = document.getElementById("business-tab")
-    businessDiv.style.display = "block";
+    businessDiv.style.display = "flex";
     var personalDiv = document.getElementById("personal-tab")
     personalDiv.style.display = "none"
 }
@@ -58,7 +58,7 @@ anchor2.addEventListener("click", openPersonal)
 
 function openPersonal() {
     var personalDiv = document.getElementById("personal-tab")
-    personalDiv.style.display = "block";
+    personalDiv.style.display = "flex";
     var businessDiv = document.getElementById("business-tab")
     businessDiv.style.display = "none"
 }
