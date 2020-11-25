@@ -1,0 +1,276 @@
+    body {
+        font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #4a4a3b;
+        background-color: #fff;
+    }
+    
+    .nav-bar {
+        position: sticky;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+        background-color: #00bf6f;
+        /* filter: invert(10%); */
+    }
+    
+    .nav-bar>div:nth-child(2) {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+    }
+    
+    .nav-bar>div:nth-child(3)>button>a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav-bar>div:nth-child(3)>button>a:hover {
+        opacity: 0.7;
+    }
+    
+    .nav-bar>div:nth-child(2)>button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    
+    .nav-bar>div:nth-child(3)>button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    
+    .nav-bar>div:nth-child(3) {
+        display: flex;
+        justify-content: space-around;
+        width: 15%;
+    }
+    
+    .nav-bar>div:nth-child(3)>button:hover {
+        opacity: 0.7;
+    }
+    
+    .nav-bar>div:nth-child(n+2):nth-child(-n+3)>button {
+        color: #333e48;
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "æ¸¸ã‚´ã‚·ãƒƒã‚¯", "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", YuGothic, "Yu Gothic", "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", "MS Gothic", sans-serif;
+    }
+    
+    .nav-bar>div:nth-child(3)>button:nth-child(2) {
+        background-color: #f9be00;
+    }
+    
+    .nav-bar>div:nth-child(3)>button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    .nav-bar>div:nth-child(2)>button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    .product-div {
+        height: 50%;
+        width: 60%;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 30px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 300px;
+        display: none;
+    }
+    
+    i {
+        font-size: 24px;
+        position: relative;
+        top: 3px;
+        padding-left: 5px;
+    }
+    
+    .choose {
+        padding: 10px;
+        margin: auto;
+        /* display: flex; */
+        /* align-items: center;
+    justify-content: center; */
+    }
+    
+    .choose>div:nth-child(1) {
+        height: 100px;
+        font-size: 20px;
+        text-align: center;
+        font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "æ¸¸ã‚´ã‚·ãƒƒã‚¯", "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", YuGothic, "Yu Gothic", "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", "MS Gothic", sans-serif;
+        color: #4a4a3b;
+    }
+    
+    .plan {
+        margin: auto;
+        width: 400px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .choose>div:nth-child(2)>div:nth-child(-n+2)>a {
+        color: #333e48;
+        font-size: 16px;
+        font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "æ¸¸ã‚´ã‚·ãƒƒã‚¯", "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", YuGothic, "Yu Gothic", "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", "MS Gothic", sans-serif;
+        margin: 100px auto;
+        text-align: center;
+    }
+    
+    .responsive-tabs {
+        padding: 10px;
+        margin: auto;
+    }
+    
+    .business {
+        display: flex;
+        margin: 10px;
+        padding: 0 10% 0 10%;
+        /* display: none; */
+    }
+    
+    .business>div {
+        width: 30%;
+        border: 1px solid grey;
+        min-height: 600px;
+        margin: 1%;
+    }
+    
+    .business-1>div:nth-child(3)>ul>li {
+        font-size: 13px;
+        font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        color: #4a4a3b;
+        line-height: 20px;
+        padding: 0px 12px 20px 32px;
+    }
+    
+    .personal {
+        display: flex;
+        margin: 10px;
+        padding: 0 10% 0 10%;
+        display: none;
+    }
+    
+    .personal>div {
+        width: 30%;
+        border: 1px solid black;
+        min-height: 600px;
+        margin: 1%;
+    }
+    
+    .business-1 {
+        min-height: 550px;
+    }
+    
+    .bus-button {
+        margin: auto;
+        padding: 10px;
+        background-color: blue;
+    }
+    
+    .bus-botton>button {
+        text-align: center;
+    }
+    
+    .target-top {
+        display: flex;
+        margin: auto;
+        padding: 0%;
+    }
+    
+    .target-top>h3 {
+        background-color: #f9be0040;
+        margin: auto;
+        padding: 10px 350px 10px 180px;
+        color: #333E48;
+    }
+    
+    .target {
+        display: flex;
+        margin: auto;
+        border: 1px solid black;
+        min-height: 300px;
+        padding: 0 10% 0 12%;
+    }
+    
+    .target>div:nth-child(1)>img {
+        height: 450px;
+        width: 300px;
+    }
+    
+    .content-direction {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content-direction>div:nth-child(1) {
+        min-height: 130px;
+        width: 700px;
+        border: #f9be00;
+        margin: 10px;
+        font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    .content-direction>div:nth-child(1)>p:nth-child(1) {
+        margin: 30px;
+        font-size: 16px;
+    }
+    
+    .content-direction>div:nth-child(1)>p:nth-child(2) {
+        margin: 10px 0px 10px 30px;
+        font-size: 16px;
+    }
+    
+    .content-direction>div:nth-child(2)>button {
+        background-color: #f9be00;
+        border-color: #F9BE00;
+        font-size: 15px;
+        font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        color: #333E48;
+        padding: 10px;
+        margin: 0px 0px 10px 40px;
+    }
+    
+    .content-direction>div:nth-child(3)>h3 {
+        min-height: 230px;
+        width: 700px;
+        border: #f9be00;
+        margin: 10px;
+        font-size: 18px;
+        line-height: 1.35;
+        color: #333E48;
+    }
+    
+    .target-bottom {
+        text-align: center;
+    }
+    
+    .target-bottom>h3>a {
+        text-decoration: none;
+        color: #007FAA;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+    
+    .target-bottom>p>a {
+        text-decoration: none;
+        color: #007FAA;
+        font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        font-size: 18px;
+        font-weight: 400;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .target-bottom>p {
+        font-size: 18px;
+        font-weight: 500;
+        color: #333E48;
+    }
