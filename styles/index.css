@@ -128,12 +128,21 @@ body {
 
 /* priyanka code */
 
+body {
+    margin: 0;
+}
+
 .nav-bar {
     position: sticky;
+    top: 0;
     width: 100%;
+    height: 40px;
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.3);
+    padding-bottom: 10px;
 }
 
 .nav-bar>div:nth-child(2) {
@@ -221,7 +230,7 @@ i {
     position: absolute;
     right: 80px;
     flex: right;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 #moving-search>i {
@@ -283,7 +292,7 @@ i {
 }
 
 #change-content {
-    font-size: 56px;
+    font-size: 54px;
     font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
 }
 
@@ -357,4 +366,96 @@ i {
 .last-image {
     width: 80%;
     height: auto;
+}
+
+.pr-main {
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.pr-left {
+    width: 660px;
+    height: 430px;
+    float: left;
+    background-color: rgb(2, 186, 106);
+}
+
+.pr-right {
+    width: 660px;
+    height: 430px;
+    float: left;
+    background-color: rgb(50, 50, 128);
+}
+
+.pr-h1 {
+    margin-top: 70px;
+    font-size: 32px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+}
+
+.platform {
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "æ¸¸ã‚´ã‚·ãƒƒã‚¯", "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", YuGothic, "Yu Gothic", "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", "MS Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    /* font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif; */
+}
+
+.pr-btn {
+    height: 40px;
+    width: 130px;
+    margin-top: 50px;
+    border-width: 0ch;
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "æ¸¸ã‚´ã‚·ãƒƒã‚¯", "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", YuGothic, "Yu Gothic", "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", "MS Gothic", sans-serif;
+    color: #333e48;
+}
+
+.see-all {
+    border: 0.5px solid black;
+}
+
+.pr-second {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pr-btn2 {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(84, 189, 84);
+    color: aliceblue;
+    border-width: 0ch;
+    border-radius: 2px;
+    color: #333e48;
+}
+
+.pr-min {
+    font-size: 12px;
+    color: gray;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pr-heading {
+    padding-top: 10px;
+}
+
+.pr-clear {
+    clear: both;
+}
+
+.curious {
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "æ¸¸ã‚´ã‚·ãƒƒã‚¯", "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", YuGothic, "Yu Gothic", "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", "MS Gothic", sans-serif;
+    font-size: 42px;
+    color: #333e48;
+}
+
+.get {
+    border-radius: 2px;
+    color: white;
+    width: 160px;
+    height: 50px;
+    font-size: 13px;
 }
