@@ -109,6 +109,7 @@ body {
     bottom: 4px;
     width: 99%;
     margin-left: .5%;
+    z-index: -1;
 }
 
 .fortune-500 {
@@ -117,6 +118,85 @@ body {
     height: 100px;
 }
 
+.product-div>div:nth-child(1) {
+    width: 30%;
+    min-height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.product-div>div:nth-child(2) {
+    width:70%;
+    display:flex;
+}
+.product-div>div:nth-child(2)>div{
+    width:50%;
+    padding:20px;
+}
+.new-pad>div:nth-child(2)>div:nth-child(2){
+    width:50%;
+    padding-top:75px;
+}
+.third-prod{
+    min-height: 200px !important;
+}
+.third-prod>div:nth-child(2){
+    background-color: white;
+}
+/* .product-div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    width:50%;
+    padding-top:10px !important;
+} */
+.card-link{
+    font-size: 14px;
+    line-height: 44px;
+    height: 24px;
+    text-align: left;
+    padding-left:20px;
+    color:#007faa;
+}
+.head-title{
+    font-size:12px;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+    text-align: left;
+    margin:20px;
+}
+.card:hover {
+    background-color:rgb(219, 213, 213);
+}
+.card>.title, .links{
+    color:#007faa;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+    font-weight: 600;
+}
+.links{
+    text-align:right;
+    cursor: pointer;
+}
+.links>i{
+    font-size: 15px;
+    height: 15px;
+    position: relative;
+    top:-1px;
+}
+.card>.description{
+    color:#6b787f;
+    font-size: 14px;
+    text-align: left;
+    margin:4px;
+    line-height: 20px;
+    padding: 0px 20px 10px 18px;
+}
+
+.card-sep{
+    margin-top:30px;
+}
+.small-link{
+    font-size: 13px;
+}
+.product-div>div:nth-child(2) {}
 
 /* amarjeet */
 
@@ -249,6 +329,7 @@ i {
         left: 100%;
         top: 0px;
     }
+
     100% {
         left: 0%;
         top: 0px;
@@ -265,15 +346,18 @@ i {
 }
 
 .product-div {
-    height: 50%;
+    min-height:400px ;
     width: 60%;
     background-color: whitesmoke;
     box-shadow: 2px 2px 30px 5px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
-    position: absolute;
-    margin-top: 20px;
+    position: sticky;
+    top: 60px;
+    margin-top: 0px;
     margin-left: 300px;
     display: none;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "æ¸¸ã‚´ã‚·ãƒƒã‚¯", "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", YuGothic, "Yu Gothic", "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", "MS Gothic", sans-serif;
+
 }
 
 .get-start {

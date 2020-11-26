@@ -1,22 +1,24 @@
-body{
+body {
     /* font-family: 'Roboto', sans-serif; */
-    font-size: 20px;
 }
 
-.logo{
-    margin:5px;
+.logo {
+    margin: 5px;
     position: relative;
     width: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.logo > div:nth-child(1) {
+
+.logo>div:nth-child(1) {
     margin-left: 120px;
 }
-.logo > div:nth-child(2) {
+
+.logo>div:nth-child(2) {
     margin-right: 120px;
 }
-.logo > div > a > button {
+
+.logo>div>a>button {
     width: 95px;
     height: 40px;
     background-color: white;
@@ -24,161 +26,206 @@ body{
     border: 2px solid black;
     font-size: 13px !important;
     font-weight: bold;
-    color:#333E48 !important;
+    color: #333E48 !important;
     border-radius: 2px;
 }
-.Pleft{
-    font-family: National2,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 34px;
-    font-weight: 10 !important;
-    line-height:1.35;
-    color:#333E48;
-    margin-bottom:35px;
-    /* margin-bottom:0px; */
-    margin-left:15px;
 
+.Pleft {
+    font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.35;
+    color: #333E48;
+    margin-bottom: 35px;
+    /* margin-bottom:0px; */
+    margin-left: 15px;
 }
-.SecondBox{
-   
+
+.SecondBox {
     width: 864px;
-    margin: 20px  auto;
+    margin: 20px auto;
     height: 900px;
 }
-.Flex{
+
+.Flex {
     display: flex;
     position: relative;
 }
-.Flex > div {
-   
-    width:49% ;
+
+.Flex>div {
+    width: 49%;
 }
-p,h1{
+
+p,
+h1 {
     /* margin: 5%; */
 }
-a{
+
+a {
     text-decoration: none;
 }
-.SecondBox > div:nth-of-type(2) ,.SecondBox > div:nth-of-type(3) {
+
+.SecondBox>div:nth-of-type(2),
+.SecondBox>div:nth-of-type(3) {
     width: 360px;
     min-height: 600px;
-    padding:32px;
-    
+    padding: 32px;
 }
-.SecondBox > div:nth-of-type(2){
+
+.SecondBox>div:nth-of-type(2) {
     background-color: #edeeee;
 }
-.SecondBox > div>:nth-of-type(1)>div:nth-of-type(1)>p{
-    margin:0px !important;
+
+.SecondBox>div>:nth-of-type(1)>div:nth-of-type(1)>p {
+    margin: 0px !important;
 }
-input:nth-of-type(1),input:nth-of-type(2) , button{
-    height: 35px; 
+
+input:nth-of-type(1),
+input:nth-of-type(2),
+button {
+    height: 35px;
     width: 350px;
     margin: 10px 0 10px 0;
     text-align: left;
     font-size: 20px;
 }
-label{
+
+label {
     padding: 10px 0 10px 0;
     font-size: 15px;
-
+    color: #333E48;
+    font-weight: 500;
 }
-input:nth-of-type(3){
+
+input:nth-of-type(3) {
     height: 20px;
     width: 20px;
     margin: 10px 10px 10px 0;
 }
-button{
+
+button {
     background-color: #00bf6f;
     border-color: #00bf6f;
     color: white;
     text-align: center;
     /* padding:25px; */
     outline: none;
-    border-radius:2px;
+    border-radius: 2px;
     height: 40px;
-    box-shadow:0 !important;
-    border:0px;
+    box-shadow: 0 !important;
+    border: 0px;
     font-size: 15px;
 }
-#clear{
+
+#clear {
     clear: left;
 }
-#clear>a{
+
+#clear>a {
     /* clear: left; */
     font-size: 13px;
     display: block;
-    padding-top:25px;
+    padding-top: 25px;
 }
-.Line{
+
+.Line {
     width: 43%;
     height: 1px;
     border: 2px solid white;
     margin-top: 13px;
 }
-.Circle{
+
+.Circle {
     width: 30px;
     border-radius: 30px;
     border: 2px solid white;
     height: 30px;
     background-color: white;
-    text-align:center;
+    text-align: center;
     margin: auto;
 }
-.Flex2{
+
+.Flex2 {
     display: flex;
     position: relative;
 }
-.logo2{
+
+.logo2 {
     position: relative;
     display: flex;
     width: 350px;
     margin: 10px auto;
+}
 
-}
-.logo2 > div{
+.logo2>div {
     margin: 25px;
-    width:40px;
+    width: 40px;
     height: 30px;
-    border-radius:20px;
-    background-color:white;
+    border-radius: 20px;
+    background-color: white;
     /* margin:10px auto; */
-    text-align:center;
-    padding-top:10px;
+    text-align: center;
+    padding-top: 10px;
 }
-.logo2 > div>a>img{
-    width:20px;
+
+.logo2>div>a>img {
+    width: 20px;
     height: 20px;
 }
- .LastLogo{
+
+.LastLogo {
     position: relative;
     height: 100px;
     width: 300px;
     left: 42%;
     display: flex;
 }
-.LastLogo > div {
-    width:40% ;
+
+.LastLogo>div {
+    width: 40%;
     height: 60px;
     margin: 4%;
 }
+
 .img {
-width: 93px;
-height: 33px;
+    width: 93px;
+    height: 33px;
 }
-.Anchor{
+
+.Anchor {
     width: 600px;
     margin: 1% auto;
     color: black;
     font-size: 14px;
     text-align: center;
 }
-#line{
+
+#line {
     width: 100%;
     border: .5px solid #6B787F;
 }
-#message{
-    margin-top:30px;
+
+#message {
+    margin-top: 30px;
     font-size: 13px;
     line-height: 1.5;
     color: #333E48;
+}
+
+.above-sin {
+    color: #333E48;
+    font-size: 13px;
+}
+
+.sin-up {
+    color: #007faa;
+    font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.audience {
+    color: #333E48;
+    font-size: 16px;
+    font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    line-height: 1.5;
 }
