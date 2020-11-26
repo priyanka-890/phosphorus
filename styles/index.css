@@ -280,3 +280,133 @@ margin: 5%;
     margin-left: 430px;
     border-radius: 2px;
 } 
+/* prabhash */
+.MAIN{
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    display:flex;
+}
+.LEFT{
+width: 50%;
+height: 400px;
+float: left;
+background-color: rgb(2, 186, 106);
+}
+.RIGHT{
+width: 51%;
+height: 400px;
+float: left;
+background-color: blue;
+}
+.H1{
+margin-top: 5%;
+font-size: 30px;
+}
+.BTN{
+height: 40px;
+width: 130px;
+margin-top: 50px;
+background-color: white;
+color: black;
+border: 1px solid black;
+
+}
+.SECOND{
+text-align: center;
+padding-top: 10px;
+}
+.BTN2{
+height: 40px;
+width: 130px;
+background-color: rgb(84, 189, 84);
+color: aliceblue;
+border: 1px solid rgb(84, 189, 84);
+
+}
+.MIN{
+font-size: 12px;
+color: gray;
+margin-top: 100px;
+text-align: center;
+}
+.HEADING{
+padding-top: 10px;
+}
+.CLEAR{
+clear: both;
+}
+.LINEHIGHT{
+line-height: 40px;
+}
+
+
+
+/* prabhash end */
+.list-horizontal > a {
+text-decoration: none;
+color: black;
+}
+.list-horizontal{
+font-size: 14px;
+margin: 23px;
+}
+.list-horizontal a li {
+display:inline-block;
+margin: 8px;
+}
+
+.list-horizontal >a >li:first-child:before {
+content: '';
+}
+.circle{
+height: 6px;
+width: 6px;
+background-color:#999;
+border-radius: 3px;
+position: relative;
+top: 12px;
+left: -13px;
+}
+.heading-h4{
+width: 200px;
+height: 450px;
+margin: 10px;
+}
+.links{
+width: 1100px;
+margin: 10px;
+height: 450px;
+text-align: left;
+}
+#left{
+display: flex;
+}
+
+
+
+
+.LastLogo{
+position: relative;
+height: 100px;
+width: 300px;
+left: 42%;
+display: flex;
+}   
+.LastLogo > div {
+width:25% ;
+height: 40px;
+margin: 1%;
+}
+.img {
+width: 100%;
+height: 100%;
+}
+.FLOAT{
+display: flex;
+position: relative;
+ margin-top: 50px;
+}
+.FLOAT > div {
+width: 34%;
+}
