@@ -1,0 +1,19 @@
+.middile{
+    height: 800px;
+    width: 1010px;
+    
+    margin-left: 250px;
+}
+.content_l{
+    float: left;
+    height: 600px;
+    width: 500px;
+    
+
+}
+.content_r{
+    float: left;
+    height: 600px;
+    width: 500px;
+    
+}
